@@ -121,6 +121,11 @@ body {
   background-color: #ffc745;
   transform: scale(1.1);
 }
+.slider-nav label:active {
+  opacity: 1;
+  background-color: #e8e7e5;
+  transform: scale(1.2);
+}
 input[name="control"] {
   display: none;
 }
