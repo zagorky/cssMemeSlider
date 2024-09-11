@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Meme Slider</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="slider">
+        <input type="radio" name="control" id="s1" checked="checked" />
+        <input type="radio" name="control" id="s2" />
+        <input type="radio" name="control" id="s3" />
+        <input type="radio" name="control" id="s4" />
+        <div class="slides">
+          <div class="slide">
+            <img src="./img/1.jpg" alt="meme" />
+          </div>
+          <div class="slide">
+            <img src="./img/2.jpg" alt="meme" />
+          </div>
+          <div class="slide">
+            <img src="./img/3.jpg" alt="meme" />
+          </div>
+          <div class="slide">
+            <img src="./img/4.jpg" alt="meme" />
+          </div>
+        </div>
+        <div class="controls">
+          <p class="description" id="desc1">Hello, ladies!</p>
+          <p class="description" id="desc2">I am the best</p>
+          <p class="description" id="desc3">
+            And I have got a lotta girlfriends
+          </p>
+          <p class="description" id="desc4">If you wanna be my next, bitch</p>
+          <div class="slider-nav">
+            <label for="s1"></label>
+            <label for="s2"></label>
+            <label for="s3"></label>
+            <label for="s4"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
