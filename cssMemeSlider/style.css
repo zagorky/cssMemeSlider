@@ -85,6 +85,14 @@ body {
   transform: scale(1.2);
   background-color: #cbbfa4;
 }
+#s1:active ~ .controls label[for="s1"],
+#s2:active ~ .controls label[for="s2"],
+#s3:active ~ .controls label[for="s3"],
+#s4:active ~ .controls label[for="s4"] {
+  opacity: 1;
+  transform: scale(1.2);
+  background-color: #f8f6f3;
+}
 .description {
   display: none;
   font-weight: 400;
