@@ -12,6 +12,9 @@ body {
 }
 .wrapper {
   display: flex;
+  margin: auto;
+  height: 100dvh;
+  width: 100dvw;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -23,6 +26,7 @@ body {
   border-radius: 10px;
   border: 10px solid #ffc745;
   width: 100%;
+  max-width: 60em;
   min-height: 30em;
   overflow: hidden;
 }
@@ -134,9 +138,6 @@ input[name="control"] {
 }
 
 @media screen and (max-width: 768.9px) {
-  .slider {
-    width: 100%;
-  }
   .slide img {
     object-fit: contain;
   }
