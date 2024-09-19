@@ -68,31 +68,28 @@ body {
   justify-content: space-between;
 }
 #s1:checked ~ .controls #desc1 {
-  /* display: block; */
-  opacity: 1;
+  /* opacity: 1; */
   color: #ffc745;
+  display: block;
 }
 
 #s2:checked ~ .controls #desc2 {
   color: #ffc745;
-  /* display: block; */
-  opacity: 1;
-
-  transform: translate(-200%);
+  display: block;
+  /* opacity: 1; */
+  /* transform: translate(-200%); */
 }
 #s3:checked ~ .controls #desc3 {
   color: #ffc745;
-  /* display: block; */
-  opacity: 1;
-
-  transform: translate(-387%);
+  display: block;
+  /* opacity: 1; */
+  /* transform: translate(-387%); */
 }
 #s4:checked ~ .controls #desc4 {
   color: #ffc745;
-  /* display: block; */
-  opacity: 1;
-
-  transform: translate(-239%);
+  display: block;
+  /* opacity: 1; */
+  /* transform: translate(-239%); */
 }
 
 #s1:checked ~ .controls label[for="s1"],
@@ -116,11 +113,12 @@ body {
   justify-content: space-between;
 }
 .description {
-  display: block;
+  /* display: block; */
+  display: none;
   font-weight: 400;
   font-size: 1em;
   padding: 10px 12px;
-  opacity: 0;
+  /* opacity: 0; */
   transition: all 0.5s ease;
 }
 
