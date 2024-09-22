@@ -1,35 +1,42 @@
-Домашнее задание: CSS Meme Slider
-Сверстать слайдер согласно требованиям:
+# CSS Meme Slider
 
-Слайдер позиционируется с равными отступами слева и справа;
-Расположение картинок, подписей к ним и контролов:
+A simple meme slider built with only CSS, offering smooth transitions, a responsive design, and easy-to-use controls for desktop and mobile.
 
-Имеется анимация для смены картинок по клику на контролы (например: перелистывание, исчезание, проскроливание и т.д. Главное - анимированная/плавная смена)
-Имеется анимация для смены подписей к картинкам по клику на контролы (например: перелистывание, исчезание, проскроливание и т.д. Главное - анимированная/плавная смена)
-Подписи к картинкам должны быть строковыми значениями (текстом)
-Каждый контрол имеет большую область нажатия
-Контролы имеют интерактивность (момент наведения, момент нажатия, активный контрол, изменение курсора). Желтый кружочек в примере выше - это индикация клика мыши в программе записи, реализовывать и оценивать его не надо.
-Controls effects: screenshot
+## Tech Stack
 
-Требования к репозиторию и как сабмитить задание
-создайте личный публичный репозиторий cssMemeSlider
+- **HTML**
+- **CSS**
 
-создайте gh-pages ветку (если таковой не имеется)
+##
 
-перейдите в эту (gh-pages) ветку и создайте папку cssMemeSlider. Ваша работа будет доступна по ссылке, например: https://${YOUR_GITHUB_NAME}.github.io/cssMemeSlider/cssMemeSlider/index.html
+![Meme Slider Screenshot](./assets/cssMemeSlider.png)
 
-выполняете таску в этой папке (cssMemeSlider). В процессе выполнения задания должно быть не менее 5 коммитов.
+## Project Description
 
-Названия коммитов должны быть согласно гайдлайну + каждый ваш коммит должен содержать тайм-стемп.
+This lightweight project features a meme slider with animated transitions and a user-friendly interface. It includes responsive behavior, hover effects, and clickable controls for seamless navigation.
 
-5.1. тайм-стемп может быть на любом языке; по тайм-стемпу должно быть понятно, когда этот коммит был сделан: день недели, месяц, число, год, точное время до секунд (очередность может быть произвольная) например название коммитов:
-init: start cssMemeSlider-task (Mon, Sep 13, 2021 10:12:24 PM)
+## Features
 
-feat: add basic page layout (Mon, Sep 13, 2021 10:25:24 PM)
+- Fully responsive layout
+- Smooth CSS transitions
+- Interactive hover and click effects
 
-Например, можно использовать следующий шаблон коммита:
+## Deployment
 
-git commit -m "init: start cssMemeSlider-task `LANG=en_EN date +'(%a, %b %d, %Y %r)'`"
+[Live Demo](https://zagorky.github.io/cssMemeSlider/cssMemeSlider/)
 
-После завершения работы откройте Pull Request из ветки gh-pagesв веткуmain. Название Pull Request дайте по названию задания. Описание Pull Request дайте по схеме. Мержить данный Pull Request не нужно. Ссылку на данный пулл реквест необходимо сабминтуть в форму кросс-чека. В пулл реквесте необходимо досконально описать, что сделано и что нет. В частности - описаны все разрешения, при которых проверяющему необходимо смотреть - например: мобильная версия 320x568, версия для ПК - 1920×1080.
-❗ В общем и целом помните, что если у проверяющего возникнут какие-либо потенциальные вопросы к автору работы на кросс-чеке - он должен найти все ответы в вашем описании к Pull Request.
+## Local Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/zagorky/cssMemeSlider.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd cssMemeSlider
+```
+
+3. Open index.html in your browser
