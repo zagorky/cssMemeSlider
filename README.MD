@@ -9,7 +9,7 @@ A simple meme slider built with only CSS, offering smooth transitions, a respons
 
 ##
 
-![Meme Slider Screenshot](./assets/cssMemeSlider.png)
+![Meme Slider Screenshot](https://github.com/zagorky/cssMemeSlider/blob/299f7294a6c54dc8c19f7cc612b50331ce0c4190/cssMemeSlider/img/cssMemeSlider.png)
 
 ## Project Description
 
